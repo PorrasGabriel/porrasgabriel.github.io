@@ -6,31 +6,59 @@
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    
   }
-  #main {
-    display: flex;
-    flex: 1;
-  }
-  #main > article {
-    flex: 1;
-    order: 1;
-  }
-  #main > nav, 
-  #main > aside {
-    flex: 0 0 20vw;
-  }
-  #main > nav {
-    background: #D7E8D4;
-    order: 3;
-  }
-  #main > aside {
-    background: beige;
-    order: 2;
-  }
+  #main
+{
+  display: flex;
+  flex: 1;
+  padding-top: 5em;
+}
   header, footer {
-    background: yellowgreen;
     height: 20vh;
+    background-color: #4a2040;
   }
-  header, footer, article, nav, aside {
-    padding: 1em;
+  footer
+  {
+    position: absolute;
+    min-width: 100vw;
+    bottom: 0;
+
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A2040;
+  }
+  li {
+    float: left;
+  }
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.background
+{
+  background-image: url(../imgs/background.jpg);
+  filter: blur(3px);
+  min-height: 20vh;
+}
+
+#main > article {
+  flex: 1;
+  order: 1;
+}
+#main > aside {
+  background: beige;
+  order: 2;
+}
+.cliente
+{
+  text-align: left;
+  color: white;
+}
