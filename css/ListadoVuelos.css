@@ -201,6 +201,12 @@ header
         width: 60vw;
         height: 55vh;
     }
+
+    
+    body
+    {
+        background-color: rgb(200, 128, 183) ;
+    }
 }
 
 
