@@ -1,0 +1,87 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 90vh;
+    margin:0;
+    background-color: rgb(200, 128, 183);
+}
+
+header
+{
+    background-color: rgb(74, 32, 64);
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+li
+{
+    list-style:none;
+    margin: 20px; 
+}
+
+#Europa
+{
+    color: aqua;
+    text-decoration: underline;
+}
+
+li:hover
+{
+    color: rgb(173, 173, 173);
+    text-decoration: underline;
+}
+div
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+img
+{
+    margin: 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label
+{
+    padding: 10px;
+}
+
+select
+{
+    margin: 10px;
+}
+
+input
+{
+    margin: 10px;
+}
