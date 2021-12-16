@@ -1,12 +1,12 @@
+/* No llames a tu pagina web index ni a tu css index.css si ya hay dos archivos llamados asi =_= porque sobrescribes mi trabajo y luego me toca 
+resolver los conflictos, respeta la estructura. */
+
 * {
     box-sizing: border-box; 
   }
   body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    padding: 0;
     margin: 0;
-    
   }
   header, footer {
     height: 10vh;
@@ -26,33 +26,55 @@
     border-bottom: black solid 1px;
   }
   ul {
+    width: 60vw;   
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4A2040;
+    display: flex;
+    justify-content: center;
+  
+  
+
   }
   li {
     float: left;
+    
   }
   li a {
+  font-size: 18px;
+  font-family: 'Bebas Neue';
   display: block;
-  color: white;
+  color: #fffff4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
-.background
+footer  
 {
   background-image: url(../imgs/background.jpg);
   filter: blur(3px);
   min-height: 10vh;
+  background-color: #4A2040;
 }
-
-.cliente
+header
 {
-  text-align: left;
-  color: white;
+  min-height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+article
+{
+
+  min-height: 100vh;
+  max-width: 80vw;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
 }
 
 h1
@@ -69,8 +91,13 @@ h1
 {
   height: 30%;
 }
+.background
+{
+    background-image: url(../imgs/background.png);
+    background-size: cover;
+}
 
-iframe
+.sec1,.sec2,.sec3
 {
   display: block;
   margin: auto;

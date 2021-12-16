@@ -1,0 +1,148 @@
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 90vh;
+    margin:0;
+    background-color: rgb(200, 128, 183);
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(74, 32, 64);
+}
+
+#nombre
+{
+    font-size: 30pt;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+#divprincipal 
+{
+    display:flex;
+    flex-direction: column;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+li
+{
+    list-style:none;
+    margin: 20px; 
+}
+
+#Europa
+{
+    color: aqua;
+    text-decoration: underline;
+}
+
+li:hover
+{
+    color: rgb(173, 173, 173);
+    text-decoration: underline;
+}
+div
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+img
+{
+    margin: 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+label
+{
+    padding: 10px;
+}
+
+select
+{
+    margin: 10px;
+}
+
+input
+{
+    margin: 10px;
+}
+
+@media (max-width: 768px)
+{
+    div
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    #divprincipal 
+    {
+        display:flex;
+        flex-direction: row;
+    }
+
+    ul
+    {
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;  
+    }
+
+    form
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 36vw;
+    }
+
+    img
+    {
+        height:120px;
+    }
+
+    #imgLogo
+    {
+        height:90px;
+    }
+}
