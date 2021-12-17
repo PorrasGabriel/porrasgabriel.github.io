@@ -23,6 +23,17 @@ resolver los conflictos, respeta la estructura. */
     bottom: 0;
 
   }
+  header>div
+  {
+    text-align: center;
+  }
+  .logo
+  {
+    position: absolute;
+    height: 10%;
+    z-index: 1;
+  }
+
   nav
   {
     min-width: 100vw;
@@ -50,6 +61,7 @@ resolver los conflictos, respeta la estructura. */
   background-image: url(../imgs/background.jpg);
   filter: blur(3px);
   min-height: 10vh;
+  z-index: 1;
 }
 
 .cliente
@@ -60,7 +72,6 @@ resolver los conflictos, respeta la estructura. */
 
 h1
 {
-  animation: ;
   margin: 0;
   text-align: center;
   color: black;
